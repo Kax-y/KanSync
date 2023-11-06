@@ -1,0 +1,59 @@
+
+/* Body */
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  background-color: white;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+}
+
+header h1 {
+  color: white;
+}
+
+/* Main */
+main {
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #343a40;
+  background-color: white;
+}
+
+.card-header {
+  padding: 10px;
+  background-color: #343a40;
+  color: white;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+/* List group */
+.list-group {
+  border: 1px;
+  background-color: white;
+}
+
+.list-group-item {
+  padding: 10px;
+  color: #343a40;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+} 
+
