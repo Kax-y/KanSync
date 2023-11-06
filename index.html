@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Group Project</title>
+    <meta charset="UTF-8" />
+    <title>KanSync</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -14,7 +15,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Group Project</a>
+        <a class="navbar-brand" href="#">KanSync</a>
 
         <button
           class="navbar-toggler"
@@ -53,9 +54,31 @@
       <section id="goals" class="card">
         <h2 class="card-header">Goals</h2>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Goal 1</li>
-          <li class="list-group-item">Goal 2</li>
-          <li class="list-group-item">Goal 3</li>
+          <li class="list-group-item">
+            Build a website to import Kanban boards from Jira, Trello, or Github
+            Project.
+          </li>
+          <li class="list-group-item">
+            Implement user authentication to allow users to connect their
+            accounts to the aforementioned services
+          </li>
+          <li class="list-group-item">
+            Develop connectors for each service to extract data from their
+            respective APIs
+          </li>
+          <li class="list-group-item">
+            Standardize the extracted data into a common format.
+          </li>
+          <li class="list-group-item">
+            Create a database to store the transformed data.
+          </li>
+          <li class="list-group-item">
+            Develop a front-end interface to display the imported Kanban boards.
+          </li>
+          <li class="list-group-item">
+            Implement features to generate charts and reports from the imported
+            data, enable collaboration, and possibly integrate Google Calendar
+          </li>
         </ul>
       </section>
 
@@ -65,8 +88,15 @@
           <div class="col-sm-6">
             <div class="card-body">
               <h3>Project Manager</h3>
-              <p>Name: [Project Manager Name]</p>
-              <p>Role: [Project Manager Role]</p>
+              <ul class="list-group list-group-flush"></ul>
+              <li class="list-group-item">
+                <p>Name: Linus Olofsson</p>
+                <p>Role: Project Manager</p>
+              </li>
+              <li class="list-group-item">
+                <p>Name: Ricards Kasendu</p>
+                <p>Role: Scrum Master</p>
+              </li>
             </div>
           </div>
           <div class="col-sm-6">
@@ -74,10 +104,24 @@
               <h3>Team Members</h3>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  Name: [Team Member Name 1], Role: [Team Member Role 1]
+                  Name: Gabriel Frimodig, Role: Full stack developer
                 </li>
                 <li class="list-group-item">
-                  Name: [Team Member Name 2], Role: [Team Member Role 2]
+                  Name: Dante Grenholm, Role: Full stack developer
+                </li>
+                <li class="list-group-item">
+                  Name: Ricards Kasendu, Role: Full stack developer, UX
+                  Designer, Scrum Master
+                </li>
+                <li class="list-group-item">
+                  Name: Linus Olofsson, Role: Full stack developer, Focus on
+                  backend, Project Manager
+                </li>
+                <li class="list-group-item">
+                  Name: Amer Slaiman, Role: Full stack developer
+                </li>
+                <li class="list-group-item">
+                  Name: Felix Thörnblad, Role: Full stack developer
                 </li>
               </ul>
             </div>
@@ -87,7 +131,10 @@
 
       <section id="progress" class="card">
         <h2 class="card-header">Progress</h2>
-        <p class="card-body">We are currently working on [current progress].</p>
+        <p class="card-body">
+          We are currently working on Prjoect Idea, Project Plan, and
+          presentation for the plan.
+        </p>
       </section>
 
       <section id="resources" class="card">
@@ -96,10 +143,13 @@
           <h3>Links to other websites</h3>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <a href="https://www.example.com">Example Website 1</a>
+              <a href="https://github.com">GitHub</a>
             </li>
             <li class="list-group-item">
-              <a href="https://www.example.net">Example Website 2</a>
+              <a href="https://trello.com">Trello</a>
+            </li>
+            <li class="list-group-item">
+              <a href="https://www.atlassian.com/software/jira">Jira</a>
             </li>
           </ul>
         </div>
@@ -108,16 +158,14 @@
         <h3 class="card-header">Software repositories or archives</h3>
         <div class="card-body">
           <p>
-            <a href="https://github.com/[group-name]/[project-name]"
-              >GitHub Repository</a
-            >
+            <a href="https://github.com/Kax-y/KanSync">GitHub Repository</a>
           </p>
         </div>
       </section>
     </main>
 
     <footer class="text-center">
-      <p>Copyright &copy; [Group Name] 2023</p>
+      <p>Copyright &copy; KanSync 2023</p>
     </footer>
   </body>
 </html>
