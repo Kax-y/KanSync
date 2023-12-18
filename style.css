@@ -55,12 +55,13 @@ main {
 .team-members {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 5fr));
-  gap: 25px; 
+  gap: 25px;
 }
 
 .team-member-image {
-  width: 100%; /* Adjust the width of the images as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 50; /* Fixed width */
+  height: 50; /* Fixed height */
+  object-fit: cover;
 }
 
 /* Footer */
